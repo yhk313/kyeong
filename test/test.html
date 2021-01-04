@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 공부</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="color.js"><</script>
+<body>
+    <h1>자바스크립트 공부하기</h1>
+
+    <input type="button" value="야간모드로 보기" onclick="
+     nightDayHandler(this);
+     ">
+    
+    <script>
+        var works = ['공부하기','운동하기','스터디하기','밥먹기'];
+    </script>
+    <script>
+        for(var i=0; i < works.length; i++){
+        document.write('<li><a href = "http://a.com/'+works[i]+'">'+works[i]+'</a></li>');
+        }
+    </script>
+    
+</body>
+</html>
